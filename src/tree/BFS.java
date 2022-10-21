@@ -12,6 +12,7 @@ public class BFS {
         int ans = 0;
         Queue<TreeNode> queue = new ArrayDeque<TreeNode>();
         queue.add(root);
+
         while (!queue.isEmpty()) {
             int len = queue.size();
 
