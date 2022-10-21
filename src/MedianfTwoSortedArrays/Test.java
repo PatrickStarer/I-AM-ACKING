@@ -59,9 +59,11 @@ public class Test {
                 //说明前三个已经被排除了,只需要找到剩下数组中第7-3个
                 k -= (newIndex1 - index1 + 1);
                 index1 = newIndex1 + 1;
+
             } else {
                 k -= (newIndex2 - index2 + 1);
                 index2 = newIndex2 + 1;
+
             }
         }
     }
