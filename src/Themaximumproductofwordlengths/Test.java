@@ -10,7 +10,6 @@ public class Test {
             }
 
         }
-
         //单词与单词，结果为零即不同
         int res = 0;
         for(int i = 0;i<words.length-1;i++){
